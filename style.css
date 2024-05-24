@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(46, 46, 46);
+    background: linear-gradient(to bottom right , rgb(0 0 0 0.8) , rgb(0 0 0 0.8));
+    }
+    form{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        }
+        input{
+            padding: 10px;
+        }
+    
+        .registration-form {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+              flex-direction: column;
+        }
+    
+        .header{
+            font-size: 2em;
+        }
+    
+        .form-stated{
+            background-color:  white;
+        }
+    
+        .action-titre,.header{
+            color: aliceblue;
+            margin-bottom: 8px;
+            padding: 5px;
+        }
+        .blur {
+            padding: 150px;
+            background-color: aqua;
+            filter: blur(150px);
+            top: 80%;
+            right: 80%;
+            border-radius: 50%;
+            position: fixed;
+            z-index: -1000;
+        }
